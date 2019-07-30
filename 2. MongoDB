@@ -1,1 +1,22 @@
+1. Shell
+
+> cd <mongodb installation dir> /bin
+
+> mongo
+
+> db  //to display the database you are using, type db:
+
+> use <database>  //To switch databases to test
+
+//insert a new document into the testdb collection.
+> db.test.insert({item:"canvas", qty:100, tags:["cotton"], size:{h: 28, w: 35.5, uom: "cm"}})
+
+//to display the collections 
+> show collections  //mytest, test collections
+
+> db.test.find( {} )
+
+> CRUD
+
+
 
